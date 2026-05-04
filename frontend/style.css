@@ -1,0 +1,51 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    background: #111;
+    color: white;
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.hero-title {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    filter: drop-shadow(0 0 10px rgba(255,255,255,0.3));
+}
+
+.hero-title h1 {
+    font-size: 56px;
+    font-weight: 900;
+    display: flex;
+    gap: 10px;
+}
+
+.pokemon {
+    color: #ffcb05;
+    text-shadow:
+        0 0 10px rgba(255,203,5,0.8),
+        0 0 20px rgba(255,203,5,0.5);
+}
+
+.search {
+    color: #c8ff3d;
+    text-shadow:
+        0 0 10px rgba(200,255,61,0.8),
+        0 0 20px rgba(200,255,61,0.5);
+}
